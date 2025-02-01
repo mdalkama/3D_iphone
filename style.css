@@ -5,32 +5,15 @@
 }
 body,html{
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background: #f9f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#container {
-    width: 200px;
-    height: 200px;
-    perspective: 500px;
-    margin: 100px;
-    /* background-color: red; */
-}
 
-#cube {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    transform-style: preserve-3d;
-    transform: rotateX(-15deg) rotateY(-25deg);
-}
 .fill{
     position: absolute;
     width: 116px;
@@ -102,6 +85,24 @@ body,html{
     transform: translateZ(4.9px) rotateY(180deg);
 }
 
+#container {
+    width: 200px;
+    height: 200px;
+    perspective: 500px;
+    margin: 100px;
+    /* background-color: red; */
+}
+
+#cube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: rotateX(-15deg) rotateY(-25deg);
+}
 .box {
     width: 200px;
     height: 200px;
@@ -113,6 +114,47 @@ body,html{
     font-family: Arial, sans-serif;
     font-size: 2rem;
 }
+#front{
+    transform: translateZ(5px);
+    width: 117px;
+    height: 252px;
+    border-radius: 15px;
+    background-color: #e0e0e0;
+    border: 3px solid #000000;
+}
+#back{
+    transform: translateZ(-5px) rotateY(180deg);
+    width: 117px;
+    height: 252px;
+    border-radius: 15px;
+    background: rgb(239,220,205);
+    background: linear-gradient(180deg, rgba(239,220,205,1) 0%, rgba(232,214,200,1) 49%, rgba(149,137,130,1) 100%);
+}
+#left{
+    transform: translateX(-58.5px) rotateY(-90deg);
+    width: 10px;
+    height: 226.5px;
+    background-color: #BFA38E;
+}
+#right{ 
+    transform: translateX(58.5px) rotateY(90deg);
+    width: 10px;
+    height: 226.5px;
+    background-color: #BFA38E;
+}
+#top{
+    transform: translateY(-126px) rotateX(90deg);
+    width: 92px;
+    height: 10px;
+    background-color: #BFA38E;
+}
+#bottom{
+    transform: translateY(126px) rotateX(-90deg);
+    width: 92px;
+    height: 10px;
+    background-color: #BFA38E;
+}
+
 #camera{
     background-color: black;
     height: 13px;
@@ -174,21 +216,7 @@ body,html{
 #logo{
     transform: translateX(42px) translateY(23px);
 }
-#front{
-    transform: translateZ(5px);
-    width: 117px;
-    height: 252px;
-    border-radius: 15px;
-    background-color: #e0e0e0;
-    border: 3px solid #000000;
-}
 
-#left{
-    transform: translateX(-58.5px) rotateY(-90deg);
-    width: 10px;
-    height: 226.5px;
-    background-color: #BFA38E;
-}
 .st-antena{
     position: absolute;
     width: 10px;
@@ -257,30 +285,4 @@ body,html{
     height: 10px;
     background-color: #000000;
     transform: translateX(36px);
-}
-
-#right{ 
-    transform: translateX(58.5px) rotateY(90deg);
-    width: 10px;
-    height: 226.5px;
-    background-color: #BFA38E;
-}
-#back{
-    transform: translateZ(-5px) rotateY(180deg);
-    width: 117px;
-    height: 252px;
-    border-radius: 15px;
-    background-color: #F1DDCE;
-}
-#top{
-    transform: translateY(-126px) rotateX(90deg);
-    width: 92px;
-    height: 10px;
-    background-color: #BFA38E;
-}
-#bottom{
-    transform: translateY(126px) rotateX(-90deg);
-    width: 92px;
-    height: 10px;
-    background-color: #BFA38E;
 }
