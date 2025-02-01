@@ -11,7 +11,7 @@ body,html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 #container {
@@ -40,7 +40,7 @@ body,html{
     background-color: #BFA38E;
 }
 .f0{
-    transform: translateZ(-4.99px) rotateY(180deg);
+    transform: translateZ(-4.999px) rotateY(180deg);
 }
 .f1{
     transform: translateZ(-4.5px) rotateY(180deg);
@@ -265,7 +265,6 @@ body,html{
     width: 10px;
     height: 226.5px;
     background-color: #BFA38E;
-
 }
 #back{
     transform: translateZ(-5px) rotateY(180deg);
