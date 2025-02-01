@@ -13,7 +13,6 @@ body,html{
     align-items: center;
 }
 
-
 .fill{
     position: absolute;
     width: 117px;
@@ -22,69 +21,129 @@ body,html{
     background-color: #BFA38E;
 }
 .f0{
-    transform: translateZ(-4.999px) rotateY(180deg);
+    transform: translateZ(-4.9px) rotateY(180deg);
 }
 .f1{
-    transform: translateZ(-4.5px) rotateY(180deg);
+    transform: translateZ(-4.75px);
 }
 .f2{
-    transform: translateZ(-4px) rotateY(180deg);
+    transform: translateZ(-4.5px);
 }
 .f3{
-    transform: translateZ(-3.5px) rotateY(180deg);
+    transform: translateZ(-4.25px);
 }
 .f4{
-    transform: translateZ(-3px) rotateY(180deg);
+    transform: translateZ(-4px);
 }
 .f5{
-    transform: translateZ(-2.5px) rotateY(180deg);
+    transform: translateZ(-3.75px);
 }
 .f6{
-    transform: translateZ(-2px) rotateY(180deg);
+    transform: translateZ(-3.5px);
 }
 .f7{
-    transform: translateZ(-1.5px) rotateY(180deg);
+    transform: translateZ(-3.25px);
 }
 .f8{
-    transform: translateZ(-1px) rotateY(180deg);
+    transform: translateZ(-3px);
 }
 .f9{
-    transform: translateZ(-0.5px) rotateY(180deg);
+    
+    transform: translateZ(-2.75px);
 }
 .f10{
-    transform: translateZ(0px) rotateY(180deg);
+    transform: translateZ(-2.5px);
 }
 .f11{
-    transform: translateZ(0.5px) rotateY(180deg);
+    transform: translateZ(-2.25px);
 }
 .f12{
-    transform: translateZ(1px) rotateY(180deg);
+    transform: translateZ(-2px);
 }
 .f13{
-    transform: translateZ(1.5px) rotateY(180deg);
+    transform: translateZ(-1.75px);
 }
 .f14{
-    transform: translateZ(2px) rotateY(180deg);
+    transform: translateZ(-1.5px);
 }
 .f15{
-    transform: translateZ(2.5px) rotateY(180deg);
+    transform: translateZ(-1.25px);
 }
 .f16{
-    transform: translateZ(3px) rotateY(180deg);
+    transform: translateZ(-1px);
 }
 .f17{
-    transform: translateZ(3.5px) rotateY(180deg);
+    transform: translateZ(-0.75px);
 }
 .f18{
-    transform: translateZ(4px) rotateY(180deg);
+    transform: translateZ(-0.5px);
 }
 .f19{
-    transform: translateZ(4.5px) rotateY(180deg);
+    transform: translateZ(-0.25px);
 }
 .f20{
-    transform: translateZ(4.9px) rotateY(180deg);
+    transform: translateZ(0px);
 }
-
+.f21{
+    transform: translateZ(0.25px);
+}
+.f22{
+    transform: translateZ(0.5px);
+}
+.f23{
+    transform: translateZ(0.75px);
+}
+.f24{
+    transform: translateZ(1px);
+}
+.f25{
+    transform: translateZ(1.25px);
+}
+.f26{
+    transform: translateZ(1.5px);
+}
+.f27{
+    transform: translateZ(1.75px);
+}
+.f28{
+    transform: translateZ(2px);
+}
+.f29{
+    transform: translateZ(2.25px);
+}
+.f30{
+    transform: translateZ(2.5px);
+}
+.f31{
+    transform: translateZ(2.75px);
+}
+.f32{
+    transform: translateZ(3px);
+}
+.f33{
+    transform: translateZ(3.25px);
+}
+.f34{
+    transform: translateZ(3.5px);
+}
+.f35{
+    transform: translateZ(3.75px);
+}
+.f36{
+    transform: translateZ(4px);
+}
+.f37{
+    transform: translateZ(4.25px);
+}
+.f38{
+    transform: translateZ(4.5px);
+}
+.f39{
+    transform: translateZ(4.75px);
+}
+.f40{
+    transform: translateZ(4.9px);
+}
 #container {
     width: 200px;
     height: 200px;
