@@ -5,8 +5,8 @@
 }
 body,html{
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background: #f9f9f9;
     display: flex;
     justify-content: center;
@@ -178,7 +178,9 @@ body,html{
     width: 117px;
     height: 252px;
     border-radius: 15px;
-    background-color: #e0e0e0;
+    background-image: url(https://www.ytechb.com/wp-content/uploads/2024/09/iPhone-16-Wallpaper-1-scaled.webp);
+    background-size: cover;
+    background-position: center;
     border: 3px solid #000000;
 }
 #back{
@@ -187,6 +189,7 @@ body,html{
     height: 252px;
     border-radius: 15px;
     background: rgb(239,220,205);
+    transform-style: preserve-3d;
     background: linear-gradient(180deg, rgba(239,220,205,1) 0%, rgba(232,214,200,1) 49%, rgba(149,137,130,1) 100%);
 }
 #left{
@@ -199,7 +202,7 @@ body,html{
     transform: translateX(58.5px) rotateY(90deg);
     width: 10px;
     height: 226.5px;
-    background-color: #BFA38E;
+    background-color: #BDA18D;
 }
 #top{
     transform: translateY(-126px) rotateX(90deg);
@@ -216,21 +219,23 @@ body,html{
 
 #camera{
     background-color: black;
-    height: 13px;
-    width: 60px;
+    height: 10px;
+    width: 45px;
     position: absolute;
-    transform: translateY(-118px);
-    border-radius: 0px 0px 8px 8px;
+    transform: translateY(-115px);
+    border-radius:8px 8px;
     z-index: 1;
 
 }
 #back-camera{
-    background-color: #E1D3C7;
+    background-color: #FFFEF7;
     height: 55px;
     width: 55px;
     position: absolute;
+    transform-style: preserve-3d;
     transform: translateY(-92px) translateX(-25px);
-    border-radius: 8px 8px;
+    border: 2px solid #000000;
+    border-radius: 12px 12px;
     box-shadow: #a79382 0px 2px 4px, #E1D3C7 0px 7px 13px -5px, #ccbaa9 0px -1px 0px inset;
 }
 #cam1{
@@ -239,7 +244,7 @@ body,html{
     border-radius: 50px;
     background-color: black;
     border: 2px solid #b7aa9f;
-    transform: translateX(5px) translateY(5px);
+    transform: translateX(5px) translateY(5px) translateZ(3.2px);
 }
 #cam2{
     width: 20px;
@@ -247,7 +252,7 @@ body,html{
     border-radius: 50px;
     background-color: black;
     border: 2px solid #b7aa9f;
-    transform: translateX(5px) translateY(9px);
+    transform: translateX(5px) translateY(9px) translateZ(2px);
 }
 #cam3{
     width: 20px;
@@ -255,7 +260,7 @@ body,html{
     border-radius: 50px;
     background-color: black;
     border: 2px solid #b7aa9f;
-    transform: translateX(29px) translateY(-23px);
+    transform: translateX(29px) translateY(-23px) translateZ(2px);
 }
 #flash{
     width: 8px;
@@ -263,14 +268,14 @@ body,html{
     border-radius: 50px;
     background-color: #F6EAE3;
     border: 2px solid #dbc8bc;
-    transform: translateX(36px) translateY(-53px);
+    transform: translateX(36px) translateY(-53px) translateZ(2px);
 }
 #sensor{
     width: 8px;
     height: 8px;
     border-radius: 50px;
     background-color: #000000;
-    transform: translateX(35px) translateY(-28px);
+    transform: translateX(35px) translateY(-28px) translateZ(2px);
 }
 #logo{
     transform: translateX(42px) translateY(23px);
@@ -344,4 +349,234 @@ body,html{
     height: 10px;
     background-color: #000000;
     transform: translateX(36px);
+}
+
+.back-fill{
+    background-color: #E2D5CC;
+    position: absolute;
+    border-radius: 12px 12px;
+}
+.bf1{
+    transform: translateY(-92px) translateX(-25px) translateZ(0.1px);
+    height: 54.9px;
+    width: 54.9px;
+}
+.bf2{
+    transform: translateY(-92px) translateX(-25px) translateZ(0.2px);
+    height: 54.8px;
+    width: 54.8px;
+}
+.bf3{
+    transform: translateY(-92px) translateX(-25px) translateZ(0.3px);
+    height: 54.7px;
+    width: 54.7px;
+}
+.bf4{
+    transform: translateY(-92px) translateX(-25px) translateZ(0.4px);
+    height: 54.6px;
+    width: 54.6px;
+}
+.bf5{
+    transform: translateY(-92px) translateX(-25px) translateZ(0.5px);
+    height: 54.5px;
+    width: 54.5px;
+}
+.bf6{
+    transform: translateY(-92px) translateX(-25px) translateZ(0.6px);
+    height: 54.4px;
+    width: 54.4px;
+}
+.bf7{
+    transform: translateY(-92px) translateX(-25px) translateZ(0.7px);
+    height: 54.3px;
+    width: 54.3px;
+}
+.bf8{
+    transform: translateY(-92px) translateX(-25px) translateZ(0.8px);
+    height: 54.2px;
+    width: 54.2px;
+}
+.bf9{
+    transform: translateY(-92px) translateX(-25px) translateZ(0.9px);
+    height: 54.1px;
+    width: 54.1px;
+}
+.bf10{
+    transform: translateY(-92px) translateX(-25px) translateZ(1px);
+    height: 54px;
+    width: 54px;
+}
+.bf11{
+    transform: translateY(-92px) translateX(-25px) translateZ(1.1px);
+    height: 53.9px;
+    width: 53.9px;
+}
+.bf12{
+    transform: translateY(-92px) translateX(-25px) translateZ(1.2px);
+    height: 53.8px;
+    width: 53.8px;
+}
+.bf13{
+    transform: translateY(-92px) translateX(-25px) translateZ(1.3px);
+    height: 53.7px;
+    width: 53.7px;
+}
+.bf14{
+    transform: translateY(-92px) translateX(-25px) translateZ(1.4px);
+    height: 53.6px;
+    width: 53.6px;
+}
+.bf15{
+    transform: translateY(-92px) translateX(-25px) translateZ(1.5px);
+    height: 53.5px;
+    width: 53.5px;
+}
+.bf16{
+    transform: translateY(-92px) translateX(-25px) translateZ(1.6px);
+    height: 53.4px;
+    width: 53.4px;
+}
+.bf17{
+    transform: translateY(-92px) translateX(-25px) translateZ(1.7px);
+    height: 53.3px;
+    width: 53.3px;
+}
+.bf18{
+    transform: translateY(-92px) translateX(-25px) translateZ(1.8px);
+    height: 53.2px;
+    width: 53.2px;
+}
+.bf19{
+    transform: translateY(-92px) translateX(-25px) translateZ(1.9px);
+    height: 53.1px;
+    width: 53.1px;
+}
+.bf20{
+    transform: translateY(-92px) translateX(-25px) translateZ(2px);
+    height: 53px;
+    width: 53px;
+}
+
+
+
+.cam1-fill{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: black;
+    border: 2px solid #b7aa9f;
+    transform: translateX(5px) translateY(5px) translateZ(2.1px);
+}
+.c1f1{
+    transform: translateX(5px) translateY(5px) translateZ(2.2px);
+}
+.c1f2{
+    transform: translateX(5px) translateY(5px) translateZ(2.3px);
+}
+.c1f3{
+    transform: translateX(5px) translateY(5px) translateZ(2.4px);
+}
+.c1f4{
+    transform: translateX(5px) translateY(5px) translateZ(2.5px);
+}
+.c1f5{
+    transform: translateX(5px) translateY(5px) translateZ(2.6px);
+}
+.c1f6{
+    transform: translateX(5px) translateY(5px) translateZ(2.7px);
+}
+.c1f7{
+    transform: translateX(5px) translateY(5px) translateZ(2.8px);
+}
+.c1f8{
+    
+    transform: translateX(5px) translateY(5px) translateZ(2.9px);
+}
+.c1f9{
+    transform: translateX(5px) translateY(5px) translateZ(3px);
+}
+.c1f10{
+    transform: translateX(5px) translateY(5px) translateZ(3.1px);
+}
+
+.cam2-fill{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: black;
+    border: 2px solid #b7aa9f;
+    transform: translateX(5px) translateY(9px) translateZ(2px);
+}
+.c2f1{
+    transform: translateX(5px) translateY(9px) translateZ(2.1px);
+}
+.c2f2{
+    transform: translateX(5px) translateY(9px) translateZ(2.2px);
+}
+.c2f3{
+    transform: translateX(5px) translateY(9px) translateZ(2.3px);
+}
+.c2f4{
+    transform: translateX(5px) translateY(9px) translateZ(2.4px);
+}
+.c2f5{
+    
+    transform: translateX(5px) translateY(9px) translateZ(2.5px);
+}
+.c2f6{
+    transform: translateX(5px) translateY(9px) translateZ(2.6px);
+}
+.c2f7{
+    transform: translateX(5px) translateY(9px) translateZ(2.7px);
+}
+.c2f8{
+    transform: translateX(5px) translateY(9px) translateZ(2.8px);
+}
+.c2f9{
+    transform: translateX(5px) translateY(9px) translateZ(2.9px);
+}
+.c2f10{
+    transform: translateX(5px) translateY(9px) translateZ(3px);
+}
+
+.cam3-fill{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: black;
+    border: 2px solid #b7aa9f;
+    transform: translateX(29px) translateY(-23px) translateZ(2px);
+}
+.c3f1{
+    transform: translateX(29px) translateY(-23px) translateZ(2.1px);
+}
+.c3f2{
+    transform: translateX(29px) translateY(-23px) translateZ(2.2px);
+}
+.c3f3{
+    transform: translateX(29px) translateY(-23px) translateZ(2.3px);
+}
+.c3f4{
+    transform: translateX(29px) translateY(-23px) translateZ(2.4px);
+}
+.c3f5{
+    transform: translateX(29px) translateY(-23px) translateZ(2.5px);
+}
+.c3f6{
+    transform: translateX(29px) translateY(-23px) translateZ(2.6px);
+}
+.c3f7{
+    transform: translateX(29px) translateY(-23px) translateZ(2.7px);
+}
+.c3f8{
+    transform: translateX(29px) translateY(-23px) translateZ(2.8px);
+}
+.c3f9{
+    transform: translateX(29px) translateY(-23px) translateZ(2.9px);
+}
+.c3f10{
+    transform: translateX(29px) translateY(-23px) translateZ(3px);
 }
